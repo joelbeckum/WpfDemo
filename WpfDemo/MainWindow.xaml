@@ -36,7 +36,7 @@
         <TextBlock Grid.Column="1" 
                    Grid.Row="2" 
                    FontWeight="Bold"
-                   Text="First Name" />
+                   Text="First Name  " />
         <TextBox x:Name="firstNameText" 
                  Grid.Column="2" 
                  Grid.Row="2"
@@ -47,6 +47,7 @@
                 Grid.Row="3"
                 Grid.ColumnSpan="2"
                 Margin="20"
-                Content="Submit" />
+                Content="Submit"
+                Click="submitButton_Click"/>
     </Grid>
 </Window>
